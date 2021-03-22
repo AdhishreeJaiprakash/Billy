@@ -58,16 +58,16 @@ func destroy() {
 //Returs map of people participating in this billy instance
 func setPeople(p string) {
 	peeps := strings.Split(p, ",")
-	if len(peeps)==0 {
+	if len(peeps) == 0 {
 		//input not in expected format
 		fmt.Println("Names not in expected format. Try again...Want: <name1>,<name2>,..")
-		return 
+		return
 	}
 	for _, name := range peeps {
-		name = strings.ReplaceAll(name," ","")
-		_PEOPLE[name]=&people{
+		name = strings.ReplaceAll(name, " ", "")
+		_PEOPLE[name] = &people{
 			name: name,
-		}	
+		}
 	}
 }
 

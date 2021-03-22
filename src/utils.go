@@ -121,7 +121,7 @@ func handleNewEntry(s string) {
 		return
 	}
 
-	if strings.ReplaceAll(peeps[0]," ","")  == "all" {
+	if strings.ReplaceAll(peeps[0], " ", "") == "all" {
 		peeps = getAllPeeps()
 	}
 
