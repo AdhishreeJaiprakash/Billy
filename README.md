@@ -1,12 +1,16 @@
-Install Go: https://golang.org/doc/install
+Install Go: Instructions [here](https://golang.org/doc/install)
 
 Run billy:
+```
 cd src && go run .
+```
 
 To generate a binary of this tool, run the command below from src/:
+```
 go build -o <path-to-file>/<filename>
+```
 
-Instructions:
+**Instructions**:
 1. Start with entering the total bill amount.
 2. Then enter the names of the people participating in the bill in the format: <name1>,<name2>,<name3>...
 3. Proceed to enter each item in the format: <iterm-name>:<price>:<person1>,<person2>,...
