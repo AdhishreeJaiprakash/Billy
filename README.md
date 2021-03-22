@@ -1,9 +1,11 @@
-*Install Go*: Instructions [here](https://golang.org/doc/install)
+**Install Go**: Instructions [here](https://golang.org/doc/install)
 
-*Run Billy*:
+**Run Billy**:
 ```
 cd src && go run .
 ```
+
+Or 
 
 To generate a binary of this tool, run the command below from src/:
 ```
@@ -21,7 +23,7 @@ go build -o <path-to-file>/<filename>
 8. To view instructions again, enter 'print instructions'/'p'.
 9. To quit, enter 'quit'/'q'.
 
-TO-DO:
+**TO-DO**:
 - Makefile!
 - Provide helper flag for binary file
 - Monitor SIGINT
